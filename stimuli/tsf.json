@@ -1,0 +1,162 @@
+{
+  "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
+  "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" },
+  "trials": [
+    [{
+      "trialCode": "tsft01-gB"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "tsft02-Bg"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft03-Pg"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft04-gP"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "tsft05-Rg"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft06-gR"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "tsft07-pB"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "tsft08-Bp"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft09-Rp"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft10-pR"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "tsft11-Rb"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "tsft12-bR"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    }]
+  ]
+}

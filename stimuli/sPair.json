@@ -1,0 +1,56 @@
+"stimPairTrain": {
+  "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
+  "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" },
+  "trials": [
+    {
+      "trialCode": "sPairT01-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT02-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT03-o",
+      "imagePath": "orange.jpg",
+      "value": -5
+    },
+    {
+      "trialCode": "sPairT04-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT05-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT06-o",
+      "imagePath": "orange.jpg",
+      "value": -5
+    },
+    {
+      "trialCode": "sPairT07-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT08-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    },
+    {
+      "trialCode": "sPairT09-o",
+      "imagePath": "orange.jpg",
+      "value": -5
+    },
+    {
+      "trialCode": "sPairT10-p",
+      "imagePath": "purple.jpg",
+      "value": 5
+    }
+  ]
+}

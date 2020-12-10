@@ -1,0 +1,371 @@
+{
+  "masteryCriterion": {
+    "preTest": {"percentage": 50, "details": "less than 50%" },
+    "postTest": {"percentage": 94, "details": "on block >=94"},
+    "probe": {"percentage": null, "details": "no criteria"}
+  },
+  "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
+  "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" },
+  "trials": [
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct01-S-rbG" 
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct02-S-rGp"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "green.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct03-S-Gbp"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct04-S-rbP"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct05-S-Pbr"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "small.jpg",
+      "trialCode": "dct06-S-bPr"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct07-M-gbP"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct08-M-rPg"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct09-M-Pgb"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "center",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct10-M-brP"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct11-M-gBr"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "medium.jpg",
+      "trialCode": "dct12-M-rpB"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct13-L-Bpg"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "center",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct14-L-gBp"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct15-L-pgB"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct16-L-gRb"
+    },
+    {
+      "class": "left",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct17-L-bpR"
+    },
+    {
+      "class": "left",
+      "imagePath": "blue.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "center",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    }],
+    [{
+      "class": "sample-stimulus",
+      "imagePath": "large.jpg",
+      "trialCode": "dct18-L-Rgp"
+    },
+    {
+      "class": "left",
+      "imagePath": "red.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "center",
+      "imagePath": "green.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "incorrect"
+    }]
+  ]
+}

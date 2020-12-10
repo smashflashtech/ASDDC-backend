@@ -1,0 +1,8 @@
+{
+  "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
+  "observingStim": {
+    "class": "observing-stimulus",
+    "imagePath": "yellowSquare.jpg"
+  },
+  "trials": []
+}

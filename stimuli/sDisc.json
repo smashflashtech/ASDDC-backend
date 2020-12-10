@@ -1,0 +1,136 @@
+{
+  "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
+  "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" },
+  "trials": [
+    [{
+      "trialCode": "sDiscT01-oP"
+    },
+    {
+      "class": "left",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "sDiscT02-Po"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "sDiscT03-oP"
+    },
+    {
+      "class": "left",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "sDiscT04-Po"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "sDiscT05-oP"
+    },
+    {
+      "class": "left",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "sDiscT06-Po"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "sDiscT07-oP"
+    },
+    {
+      "class": "left",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "sDiscT08-Po"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    }],
+    [{
+      "trialCode": "sDiscT09-oP"
+    },
+    {
+      "class": "left",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    },
+    {
+      "class": "right",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    }],
+    [{
+      "trialCode": "sDiscT10-Po"
+    },
+    {
+      "class": "left",
+      "imagePath": "purple.jpg",
+      "value": "correct"
+    },
+    {
+      "class": "right",
+      "imagePath": "orange.jpg",
+      "value": "incorrect"
+    }]
+  ]
+}

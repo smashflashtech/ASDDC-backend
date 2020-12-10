@@ -46,6 +46,27 @@ def npst():
   data = json.load(open(json_url))
   return jsonify(npst=data)
 
+@app.route('/psvott', methods=['GET'])
+def psvott():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'psvotTact.json')
+  data = json.load(open(json_url))
+  return jsonify(psvott=data)
+
+@app.route('/psvotiv', methods=['GET'])
+def psvotIV():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'psvotIV.json')
+  data = json.load(open(json_url))
+  return jsonify(psvotiv=data)
+
+@app.route('/psvotps', methods=['GET'])
+def psvotPS():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'psvotPS.json')
+  data = json.load(open(json_url))
+  return jsonify(psvotps=data)
+
 @app.route('/sd', methods=['GET'])
 def sd():
   SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -73,3 +94,17 @@ def tsf():
   json_url = os.path.join(SITE_ROOT,'stimuli/', 'tsf.json')
   data = json.load(open(json_url))
   return jsonify(tsf=data)
+
+@app.route('/amts', methods=['GET'])
+def amts():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'aMTS.json')
+  data = json.load(open(json_url))
+  return jsonify(amts=data)
+
+@app.route('/nonamts/<set>', methods=['GET'])
+def abmts(set):
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', f"set{set}.json")
+  data = json.load(open(json_url))
+  return jsonify(abmts=data)

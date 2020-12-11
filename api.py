@@ -95,6 +95,13 @@ def tsf():
   data = json.load(open(json_url))
   return jsonify(tsf=data)
 
+@app.route('/tp', methods=['GET'])
+def tp():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'tp.json')
+  data = json.load(open(json_url))
+  return jsonify(tp=data)
+
 @app.route('/amts', methods=['GET'])
 def amts():
   SITE_ROOT = os.path.realpath(os.path.dirname(__file__))

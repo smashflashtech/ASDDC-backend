@@ -45,10 +45,10 @@ def evotiv():
   data = json.load(open(json_url))
   return jsonify(evotiv=data)
 
-@app.route('/instructions', methods=['GET'])
-def instructions():
+@app.route('/instructions/<phase>', methods=['GET'])
+def instructions(phase):
   SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-  json_url = os.path.join(SITE_ROOT,'stimuli/', 'instructions.json')
+  json_url = os.path.join(SITE_ROOT,'stimuli/', f"i_{phase}.json")
   data = json.load(open(json_url))
   return jsonify(instructions=data)
 

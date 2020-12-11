@@ -17,6 +17,12 @@ def showjson():
   return jsonify(message=data)
   # return jsonify(message='')
 
+@app.route('/amts', methods=['GET'])
+def amts():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'aMTS.json')
+  data = json.load(open(json_url))
+  return jsonify(amts=data)
 
 @app.route('/dct', methods=['GET'])
 def dct():
@@ -38,6 +44,20 @@ def evotiv():
   json_url = os.path.join(SITE_ROOT,'stimuli/', 'evotIV.json')
   data = json.load(open(json_url))
   return jsonify(evotiv=data)
+
+@app.route('/instructions', methods=['GET'])
+def instructions():
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', 'instructions.json')
+  data = json.load(open(json_url))
+  return jsonify(instructions=data)
+
+@app.route('/nonamts/<set>', methods=['GET'])
+def namts(set):
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+  json_url = os.path.join(SITE_ROOT,'stimuli/', f"set{set}.json")
+  data = json.load(open(json_url))
+  return jsonify(namts=data) 
 
 @app.route('/npst', methods=['GET'])
 def npst():
@@ -102,16 +122,3 @@ def tp():
   data = json.load(open(json_url))
   return jsonify(tp=data)
 
-@app.route('/amts', methods=['GET'])
-def amts():
-  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-  json_url = os.path.join(SITE_ROOT,'stimuli/', 'aMTS.json')
-  data = json.load(open(json_url))
-  return jsonify(amts=data)
-
-@app.route('/nonamts/<set>', methods=['GET'])
-def namts(set):
-  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-  json_url = os.path.join(SITE_ROOT,'stimuli/', f"set{set}.json")
-  data = json.load(open(json_url))
-  return jsonify(namts=data) 

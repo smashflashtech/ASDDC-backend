@@ -2,7 +2,7 @@
   "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
   "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" }, 
   "feedback": "gray.gif",
-  "stimuli": [
+  "trials": [
     [
       {
         "class": "sample-stimulus",

@@ -12,17 +12,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "right",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       }
     ],
     [
@@ -35,17 +38,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       },
       {
         "class": "right",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       }
     ],
     [
@@ -57,17 +63,20 @@
       {
         "class": "left",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       }
     ],
     [
@@ -79,17 +88,20 @@
       {
         "class": "left",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       }
     ],
     [
@@ -101,17 +113,20 @@
       {
         "class": "left",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "center",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ],
     [
@@ -123,17 +138,20 @@
       {
         "class": "left",
         "imagePath": "i450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i450"
       },
       {
         "class": "center",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ],
     [
@@ -145,17 +163,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "right",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       }
     ],
     [
@@ -167,17 +188,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "right",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       }
     ],
     [
@@ -189,17 +213,20 @@
       {
         "class": "left",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       }
     ],
     [
@@ -211,17 +238,20 @@
       {
         "class": "left",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       }
     ],
     [
@@ -233,17 +263,20 @@
       {
         "class": "left",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "center",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ],
     [
@@ -255,17 +288,20 @@
       {
         "class": "left",
         "imagePath": "i375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i375"
       },
       {
         "class": "center",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ],
     [
@@ -277,17 +313,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "right",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       }
     ],
     [
@@ -299,17 +338,20 @@
       {
         "class": "left",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "center",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       },
       {
         "class": "right",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       }
     ],
     [
@@ -321,17 +363,20 @@
       {
         "class": "left",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       }
     ],
     [
@@ -343,17 +388,20 @@
       {
         "class": "left",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       },
       {
         "class": "center",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       },
       {
         "class": "right",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       }
     ],
     [
@@ -365,17 +413,20 @@
       {
         "class": "left",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "center",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ],
     [
@@ -387,17 +438,20 @@
       {
         "class": "left",
         "imagePath": "i75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i75"
       },
       {
         "class": "center",
         "imagePath": "i150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "i150"
       },
       {
         "class": "right",
         "imagePath": "i300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "i300"
       }
     ]
   ]

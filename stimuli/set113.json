@@ -1,7 +1,7 @@
 {
   "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
   "observingStim": { "class": "observing-stimulus", "imagePath": "yellowSquare.jpg" }, 
-  "feedback": "gray.gif",
+  "feedback": "fireworks.gif",
   "trials": [
     [
       {
@@ -12,17 +12,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "right",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       }
     ],
     [
@@ -35,17 +38,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       },
       {
         "class": "right",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       }
     ],
     [
@@ -57,17 +63,20 @@
       {
         "class": "left",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       }
     ],
     [
@@ -79,17 +88,20 @@
       {
         "class": "left",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       }
     ],
     [
@@ -101,17 +113,20 @@
       {
         "class": "left",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "center",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ],
     [
@@ -123,17 +138,20 @@
       {
         "class": "left",
         "imagePath": "m450.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m450"
       },
       {
         "class": "center",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ],
     [
@@ -145,17 +163,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "right",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       }
     ],
     [
@@ -167,17 +188,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "right",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       }
     ],
     [
@@ -189,17 +213,20 @@
       {
         "class": "left",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       }
     ],
     [
@@ -211,17 +238,20 @@
       {
         "class": "left",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       }
     ],
     [
@@ -233,17 +263,20 @@
       {
         "class": "left",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "center",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ],
     [
@@ -255,17 +288,20 @@
       {
         "class": "left",
         "imagePath": "m375.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m375"
       },
       {
         "class": "center",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ],
     [
@@ -277,17 +313,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "right",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       }
     ],
     [
@@ -299,17 +338,20 @@
       {
         "class": "left",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "center",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       },
       {
         "class": "right",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       }
     ],
     [
@@ -321,17 +363,20 @@
       {
         "class": "left",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       }
     ],
     [
@@ -343,17 +388,20 @@
       {
         "class": "left",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       },
       {
         "class": "center",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       },
       {
         "class": "right",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       }
     ],
     [
@@ -365,17 +413,20 @@
       {
         "class": "left",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "center",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ],
     [
@@ -387,17 +438,20 @@
       {
         "class": "left",
         "imagePath": "m75.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m75"
       },
       {
         "class": "center",
         "imagePath": "m150.jpg",
-        "value": "incorrect"
+        "value": "incorrect",
+        "size": "m150"
       },
       {
         "class": "right",
         "imagePath": "m300.jpg",
-        "value": "correct"
+        "value": "correct",
+        "size": "m300"
       }
     ]
   ]

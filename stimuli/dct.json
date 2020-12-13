@@ -1,7 +1,7 @@
 {
   "masteryCriterion": {
     "preTest": {"percentage": 50, "details": "less than 50%" },
-    "postTest": {"percentage": 94, "details": "on block >=94"},
+    "postTest": {"percentage": 94, "details": "one block >=94"},
     "probe": {"percentage": null, "details": "no criteria"}
   },
   "instructions": "INCOMPLETE: INSERT INSTRUCTION TEXT",
@@ -15,17 +15,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"green"
     }],
     [{
       "class": "sample-stimulus",
@@ -35,17 +38,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"green"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -55,17 +61,20 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"green"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -75,17 +84,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -95,17 +107,20 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     }],
     [{
       "class": "sample-stimulus",
@@ -115,17 +130,20 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "center",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     }],
     [{
       "class": "sample-stimulus",
@@ -135,17 +153,20 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -155,17 +176,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     }],
     [{
       "class": "sample-stimulus",
@@ -175,17 +199,20 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     },
     {
       "class": "center",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -195,17 +222,20 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "center",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -215,17 +245,20 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     }],
     [{
       "class": "sample-stimulus",
@@ -235,17 +268,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -255,17 +291,20 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"blue"
     },
     {
       "class": "center",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     }],
     [{
       "class": "sample-stimulus",
@@ -275,17 +314,20 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "center",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -295,17 +337,20 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     },
     {
       "class": "center",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -315,17 +360,20 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "center",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"red"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -335,17 +383,20 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"blue"
     },
     {
       "class": "center",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"red"
     }],
     [{
       "class": "sample-stimulus",
@@ -355,17 +406,20 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color":"red"
     },
     {
       "class": "center",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"green"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color":"purple"
     }]
   ]
 }

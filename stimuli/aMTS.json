@@ -11,12 +11,15 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
+
     }],
     [{
       "class": "sample-stimulus",
@@ -26,12 +29,14 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
     }],
     [{
       "class": "sample-stimulus",
@@ -41,12 +46,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
     }],
     [{
       "class": "sample-stimulus",
@@ -56,12 +63,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -71,12 +80,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -86,12 +97,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     }],
     [{
       "class": "sample-stimulus",
@@ -101,12 +114,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     }],
     [{
       "class": "sample-stimulus",
@@ -116,12 +131,14 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -131,12 +148,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     }],
     [{
       "class": "sample-stimulus",
@@ -146,12 +165,14 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "class": "sample-stimulus",
@@ -161,12 +182,14 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     }],
     [{
       "class": "sample-stimulus",
@@ -176,12 +199,14 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "red"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     }]
   ]
 }

@@ -8,12 +8,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     }],
     [{
       "trialCode": "tsft02-Bg"
@@ -21,12 +23,14 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     }],
     [{
       "trialCode": "tsft03-Pg"
@@ -34,12 +38,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     }],
     [{
       "trialCode": "tsft04-gP"
@@ -47,12 +53,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "trialCode": "tsft05-Rg"
@@ -60,12 +68,14 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     },
     {
       "class": "right",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     }],
     [{
       "trialCode": "tsft06-gR"
@@ -73,12 +83,14 @@
     {
       "class": "left",
       "imagePath": "green.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "green"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     }],
     [{
       "trialCode": "tsft07-pB"
@@ -86,12 +98,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     }],
     [{
       "trialCode": "tsft08-Bp"
@@ -99,12 +113,14 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     }],
     [{
       "trialCode": "tsft09-Rp"
@@ -117,7 +133,8 @@
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     }],
     [{
       "trialCode": "tsft10-pR"
@@ -125,12 +142,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     }],
     [{
       "trialCode": "tsft11-Rb"
@@ -138,12 +157,14 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     },
     {
       "class": "right",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     }],
     [{
       "trialCode": "tsft12-bR"
@@ -151,12 +172,14 @@
     {
       "class": "left",
       "imagePath": "blue.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "blue"
     },
     {
       "class": "right",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     }]
   ]
 }

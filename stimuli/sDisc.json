@@ -8,12 +8,14 @@
     {
       "class": "left",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "trialCode": "sDiscT02-Po"
@@ -21,12 +23,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     }],
     [{
       "trialCode": "sDiscT03-oP"
@@ -34,12 +38,14 @@
     {
       "class": "left",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "trialCode": "sDiscT04-Po"
@@ -47,12 +53,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     }],
     [{
       "trialCode": "sDiscT05-oP"
@@ -60,12 +68,15 @@
     {
       "class": "left",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
+
     }],
     [{
       "trialCode": "sDiscT06-Po"
@@ -73,12 +84,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     }],
     [{
       "trialCode": "sDiscT07-oP"
@@ -86,12 +99,14 @@
     {
       "class": "left",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "trialCode": "sDiscT08-Po"
@@ -99,12 +114,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     }],
     [{
       "trialCode": "sDiscT09-oP"
@@ -112,12 +129,14 @@
     {
       "class": "left",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     },
     {
       "class": "right",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     }],
     [{
       "trialCode": "sDiscT10-Po"
@@ -125,12 +144,14 @@
     {
       "class": "left",
       "imagePath": "purple.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "purple"
     },
     {
       "class": "right",
       "imagePath": "orange.jpg",
-      "value": "incorrect"
+      "value": "incorrect",
+      "color": "orange"
     }]
   ]
 }

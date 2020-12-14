@@ -128,7 +128,8 @@
     {
       "class": "left",
       "imagePath": "red.jpg",
-      "value": "correct"
+      "value": "correct",
+      "color": "red"
     },
     {
       "class": "right",

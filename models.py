@@ -55,7 +55,7 @@ class Feedback(db.Model):
   __tablename__ = 'feedbacks' # weird
 
   id = db.Column(db.Integer, primary_key=True)
-  code = db.Column(db.String(5))
+  code = db.Column(db.String(25))
 
   def __repr__(self): 
     return f'Participant(id={self.id}, name="{self.code}"'

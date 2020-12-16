@@ -1,4 +1,4 @@
-from models import db, Group, Participant, Trial_Type #, Set, Feedback
+from models import db, Group, Participant, Trial_Type#, Set #, Feedback
 
 db.create_all()
 
@@ -300,7 +300,7 @@ trial_types.append(Trial_Type(
   trial_code = 'tsft12-bR'
 ))
 
-# # SETS
+# # # SETS
 # sets = []
 # sets.append(Set(
 #   letter = '101'
@@ -358,10 +358,10 @@ trial_types.append(Trial_Type(
 # ))
 
 # #MEGA SEED MENU
-# db.session.add_all(groups)
-# db.session.add_all(participants) 
-# db.session.add_all(trial_types) 
+db.session.add_all(groups)
+db.session.add_all(participants) 
+db.session.add_all(trial_types) 
 # db.session.add_all(sets) 
 # db.session.add_all(feedback) 
 
-# db.session.commit() # commits the changes to the database
+db.session.commit() # commits the changes to the database

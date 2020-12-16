@@ -7,7 +7,6 @@ def get_all_responses():
   return jsonify(results)
 
 def create_response(trialcode, **form_kwargs):
-  print(set)
   new_response = Participant_Trial_Type(
     trial_type_id = Trial_Type.query.filter_by(trial_code=trialcode).one().id,
     **form_kwargs)

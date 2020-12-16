@@ -30,7 +30,7 @@ class Participant_Trial_Type(db.Model): #D
   participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'))#D do i need primary key true here?
   trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'))#D do i need primary key true here?
   position = db.Column(db.String(10))
-  color = db.Column(db.String(10))
+  color_size = db.Column(db.String(10))
   value = db.Column(db.String(15))
   block_code = db.Column(db.String(25))
   feedback = db.Column(db.Boolean)

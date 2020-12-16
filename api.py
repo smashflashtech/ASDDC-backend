@@ -3,7 +3,7 @@ from flask import (
 )
 from models import app, Participant
 from crud.participant_crud import (get_all_participants, get_participant, create_participant, update_participant, destroy_participant)
-
+from crud.participant_trial_type_set_feedback_crud import (get_all_responses, create_response)
 from flask_cors import CORS
 import os
 
@@ -33,6 +33,15 @@ def participant_show_put_delete(id):
     return update_participant(id, **request.get_json())
   elif request.method == 'DELETE':
     return destroy_participant(id)
+
+#Response CR--
+@app.route('/responses', methods=['GET'])
+def get_responses():
+  return get_all_responses()
+
+@app.route('/response', methods=['POST'])
+def create_one_response():
+  return create_response(**request.get_json()) 
 
 #IDK
 @app.route('/', methods=['GET'])

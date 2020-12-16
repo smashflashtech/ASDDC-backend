@@ -26,8 +26,9 @@ class Group(db.Model):
 
 class Participant_Trial_Type(db.Model): #D
   __tablename__='participants_trial_types'
-  participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'), primary_key=True)#D do i need primary key true here?
-  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'), primary_key=True)#D do i need primary key true here?
+  id = db.Column(db.Integer, primary_key=True)
+  participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'))#D do i need primary key true here?
+  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'))#D do i need primary key true here?
   position = db.Column(db.String(10))
   color = db.Column(db.String(10))
   value = db.Column(db.String(15))
@@ -35,6 +36,11 @@ class Participant_Trial_Type(db.Model): #D
   cumulative_corrects = db.Column(db.Integer)
   trial_type = db.relationship('Trial_Type', back_populates='participant')#D 
   participant = db.relationship("Participant", back_populates='trial_type')#D
+  def __repr__(self):
+    return f'Response(id={self.id}, participantId={self.participant_id}, trial_type_id="{self.trial_type_id}", position="{self.position}", color="{self.color}", value="{self.value}", block_code="{self.block_code}", cumulative_corrects="{self.cumulative_corrects}"'
+  def as_dict(self):
+    return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
 
 class Participant(db.Model):
   __tablename__ = 'participants'

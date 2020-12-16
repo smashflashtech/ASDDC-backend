@@ -23,7 +23,16 @@ def create_get_participant():
   if request.method == 'GET':
     return get_all_participants()
   if request.method == 'POST':
-    return create_participant(**request.getjson()) 
+    return create_participant(**request.get_json()) 
+
+@app.route('/participant/<int:id>', methods=['GET', 'PUT', 'DELETE'])
+def participant_show_put_delete(id):
+  if request.method == 'GET':
+    return get_participant(id)
+  elif request.method == 'PUT':
+    return update_participant(id, **request.get_json())
+  elif request.method == 'DELETE':
+    return destroy_participant(id)
 
 #IDK
 @app.route('/', methods=['GET'])

@@ -297,49 +297,49 @@ trial_types.append(Trial_Type(
 # SETS
 sets = []
 sets.append(Set(
-  letter = 'A'
+  letter = '101'
 ))
 sets.append(Set(
-  letter = 'B'
+  letter = '102'
 ))
 sets.append(Set(
-  letter = 'C'
+  letter = '103'
 ))
 sets.append(Set(
-  letter = 'D'
+  letter = '104'
 ))
 sets.append(Set(
-  letter = 'E'
+  letter = '105'
 ))
 sets.append(Set(
-  letter = 'F'
+  letter = '106'
 ))
 sets.append(Set(
-  letter = 'G'
+  letter = '107'
 ))
 sets.append(Set(
-  letter = 'H'
+  letter = '108'
 ))
 sets.append(Set(
-  letter = 'I'
+  letter = '109'
 ))
 sets.append(Set(
-  letter = 'J'
+  letter = '110'
 ))
 sets.append(Set(
-  letter = 'K'
+  letter = '111'
 ))
 sets.append(Set(
-  letter = 'L'
+  letter = '112'
 ))
 sets.append(Set(
-  letter = 'M'
+  letter = '113'
 ))
 sets.append(Set(
-  letter = 'N'
+  letter = '114'
 ))
 sets.append(Set(
-  letter = 'O'
+  letter = '115'
 ))
 
 #feedbacks

@@ -16,7 +16,6 @@ groups.append(Group(
 # db.session.commit() # commits the changes to the database
 
 participants = [Participant( 
-  group_id = 1,
   dyad_L = 'A',
   dyad_N = 1,
   remedial = 'nope',
@@ -24,33 +23,28 @@ participants = [Participant(
   notes = 'Test'
 )]
 participants.append(Participant(
-  group_id = 1,
   dyad_L = 'A',
   dyad_N = 2,
   date_of_participation = '2020-12-15; 10:33',
   notes = 'Test'
 ))
 participants.append(Participant(
-  group_id = 2,
   dyad_L = 'I',
   dyad_N = 1,
   remedial = 'yep',
   date_of_participation = '2020-12-15; 10:33'
 ))
 participants.append(Participant(
-  group_id = 2,
   dyad_L = 'I',
   dyad_N = 2,
   date_of_participation = '2020-12-15; 10:33',
 ))
 participants.append(Participant(
-  group_id = 3,
   dyad_L = 'Q',
   dyad_N = 1,
   date_of_participation = '2020-12-15; 10:33'
 ))
 participants.append(Participant(
-  group_id = 3,
   dyad_L = 'Q',
   dyad_N = 2,
   date_of_participation = '2020-12-15; 10:33'

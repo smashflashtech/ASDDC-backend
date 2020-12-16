@@ -153,6 +153,64 @@ trial_types.append(Trial_Type(
 trial_types.append(Trial_Type(
   trial_code = 'dct18-L-Rgp'
 ))
+##### ~~~ ~~~~ ~~~ ~~~ ~~~ NAMST
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS01-S-Sml'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS02-S-Slm'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS03-S-mSl'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS04-S-lSm'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS05-S-mlS'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS06-S-lmS'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS07-M-Mls'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS08-M-Msl'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS09-M-sMl'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS10-M-lMs'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS11-M-slM'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS12-M-lsM'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS13-L-Lms'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS14-L-Lsm'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS15-L-mLs'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS16-L-sLm'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS17-L-msL'
+))
+trial_types.append(Trial_Type(
+  trial_code = 'nonAMTS18-L-smL'
+))
+
+
+
 
 ##### ~~~ ~~~~ ~~~ ~~~ ~~~ SDisc
 trial_types.append(Trial_Type(
@@ -299,6 +357,12 @@ trial_types.append(Trial_Type(
 trial_types.append(Trial_Type(
   trial_code = 'tsft12-bR'
 ))
+
+
+
+
+
+
 
 # # # SETS
 # sets = []

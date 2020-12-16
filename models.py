@@ -33,8 +33,7 @@ class Participant_Trial_Type(db.Model): #D
   color = db.Column(db.String(10))
   value = db.Column(db.String(15))
   block_code = db.Column(db.String(25))
-  feedback = db.Column(db.Integer)
-  cumulative_corrects = db.Column(db.Integer)
+  feedback = db.Column(db.Boolean)
   trial_type = db.relationship('Trial_Type', back_populates='participant')#D 
   participant = db.relationship("Participant", back_populates='trial_type')#D
   def __repr__(self):

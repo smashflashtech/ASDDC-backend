@@ -33,11 +33,12 @@ class Participant_Trial_Type(db.Model): #D
   color = db.Column(db.String(10))
   value = db.Column(db.String(15))
   block_code = db.Column(db.String(25))
+  feedback = db.Column(db.Integer)
   cumulative_corrects = db.Column(db.Integer)
   trial_type = db.relationship('Trial_Type', back_populates='participant')#D 
   participant = db.relationship("Participant", back_populates='trial_type')#D
   def __repr__(self):
-    return f'Response(id={self.id}, participantId={self.participant_id}, trial_type_id="{self.trial_type_id}", position="{self.position}", color="{self.color}", value="{self.value}", block_code="{self.block_code}", cumulative_corrects="{self.cumulative_corrects}"'
+    return f'Response(id={self.id}, participant_id={self.participant_id}, trial_type_id="{self.trial_type_id}", position="{self.position}", color="{self.color}", value="{self.value}", block_code="{self.block_code}", cumulative_corrects="{self.cumulative_corrects}"'
   def as_dict(self):
     return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
@@ -60,7 +61,6 @@ class Participant(db.Model):
   def as_dict(self):
     return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
-# InvalidRequestError: When initializing mapper mapped class Participant->participants, expression 'Participants_Trial_Types' failed to locate a name ('Participants_Trial_Types'). If this is a class name, consider adding this relationship() to the <class 'models.Participant'> class after both dependent classes have been defined.
 class Trial_Type(db.Model):
   __tablename__ = 'trial_types'
   id = db.Column(db.Integer, primary_key=True)
@@ -70,39 +70,34 @@ class Trial_Type(db.Model):
   def __repr__(self): 
     return f'Participant(id={self.id}, name="{self.trial_code}"'
 
+# trial_types_sets = db.Table(
+#   'trial_types_sets',
+#   db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
+#   db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
+# )
 
+# class Set(db.Model):
+#   __tablename__ = 'sets'
+#   id = db.Column(db.Integer, primary_key=True)
+#   letter = db.Column(db.String(5))
+#   def __repr__(self): 
+#     return f'Participant(id={self.id}, name="{self.letter}"'
 
+# feedbacks_sets = db.Table(
+#   'feedbacks_sets',
+#   db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True), # M
+#   db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
+# )
 
+# trial_types_feedbacks = db.Table(
+#   'trial_types_feedbacks',
+#   db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
+#   db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True)                 #M
+# )
 
-
-trial_types_sets = db.Table(
-  'trial_types_sets',
-  db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
-  db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
-)
-
-class Set(db.Model):
-  __tablename__ = 'sets'
-  id = db.Column(db.Integer, primary_key=True)
-  letter = db.Column(db.String(5))
-  def __repr__(self): 
-    return f'Participant(id={self.id}, name="{self.letter}"'
-
-feedbacks_sets = db.Table(
-  'feedbacks_sets',
-  db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True), # M
-  db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
-)
-
-trial_types_feedbacks = db.Table(
-  'trial_types_feedbacks',
-  db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
-  db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True)                 #M
-)
-
-class Feedback(db.Model):
-  __tablename__ = 'feedbacks' # weird
-  id = db.Column(db.Integer, primary_key=True)
-  code = db.Column(db.String(25))
-  def __repr__(self): 
-    return f'Participant(id={self.id}, name="{self.code}"'
+# class Feedback(db.Model):
+#   __tablename__ = 'feedbacks' # weird
+#   id = db.Column(db.Integer, primary_key=True)
+#   code = db.Column(db.String(25))
+#   def __repr__(self): 
+#     return f'Participant(id={self.id}, name="{self.code}"'

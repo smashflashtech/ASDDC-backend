@@ -1,4 +1,4 @@
-from models import db, Group, Participant, Trial_Type, Set, Feedback
+from models import db, Group, Participant, Trial_Type #, Set, Feedback
 
 db.create_all()
 
@@ -300,62 +300,62 @@ trial_types.append(Trial_Type(
   trial_code = 'tsft12-bR'
 ))
 
-# SETS
-sets = []
-sets.append(Set(
-  letter = '101'
-))
-sets.append(Set(
-  letter = '102'
-))
-sets.append(Set(
-  letter = '103'
-))
-sets.append(Set(
-  letter = '104'
-))
-sets.append(Set(
-  letter = '105'
-))
-sets.append(Set(
-  letter = '106'
-))
-sets.append(Set(
-  letter = '107'
-))
-sets.append(Set(
-  letter = '108'
-))
-sets.append(Set(
-  letter = '109'
-))
-sets.append(Set(
-  letter = '110'
-))
-sets.append(Set(
-  letter = '111'
-))
-sets.append(Set(
-  letter = '112'
-))
-sets.append(Set(
-  letter = '113'
-))
-sets.append(Set(
-  letter = '114'
-))
-sets.append(Set(
-  letter = '115'
-))
+# # SETS
+# sets = []
+# sets.append(Set(
+#   letter = '101'
+# ))
+# sets.append(Set(
+#   letter = '102'
+# ))
+# sets.append(Set(
+#   letter = '103'
+# ))
+# sets.append(Set(
+#   letter = '104'
+# ))
+# sets.append(Set(
+#   letter = '105'
+# ))
+# sets.append(Set(
+#   letter = '106'
+# ))
+# sets.append(Set(
+#   letter = '107'
+# ))
+# sets.append(Set(
+#   letter = '108'
+# ))
+# sets.append(Set(
+#   letter = '109'
+# ))
+# sets.append(Set(
+#   letter = '110'
+# ))
+# sets.append(Set(
+#   letter = '111'
+# ))
+# sets.append(Set(
+#   letter = '112'
+# ))
+# sets.append(Set(
+#   letter = '113'
+# ))
+# sets.append(Set(
+#   letter = '114'
+# ))
+# sets.append(Set(
+#   letter = '115'
+# ))
 
-#feedbacks
-feedback=[]
-feedback.append(Feedback(
-  code = 'Yes'
-))
-feedback.append(Feedback(
-  code = 'None'
-))
+# #feedbacks
+# feedback=[]
+# feedback.append(Feedback(
+#   code = 'Yes'
+# ))
+# feedback.append(Feedback(
+#   code = 'None'
+# ))
 
 # #MEGA SEED MENU
 # db.session.add_all(groups)

@@ -1,12 +1,29 @@
 from flask import (
   Flask, jsonify, request, render_template, url_for, json
 )
-from models import app
+from models import app, Participant
+from crud.participant_crud import (get_all_participants, get_participant, create_participant, update_participant, destroy_participant)
+
 from flask_cors import CORS
 import os
 
+
 #Middleware?
 CORS(app)
+@app.errorhandler(Exception)
+def unhandled_exception(e):    
+  app.logger.error(f'Unhandled Exception: {e}')
+  message_str = e.__str__()
+  return jsonify(message=message_str.split(':')[0])
+
+
+#Participant Crud
+@app.route('/participants', methods=['GET', 'POST'])
+def create_get_participant():
+  if request.method == 'GET':
+    return get_all_participants()
+  if request.method == 'POST':
+    return create_participant(**request.getjson()) 
 
 #IDK
 @app.route('/', methods=['GET'])

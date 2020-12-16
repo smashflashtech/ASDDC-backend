@@ -23,6 +23,19 @@ class Group(db.Model):
 
 
 
+
+class Participant_Trial_Type(db.Model): #D
+  __tablename__='participants_trial_types'
+  participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'), primary_key=True)#D do i need primary key true here?
+  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'), primary_key=True)#D do i need primary key true here?
+  position = db.Column(db.String(10))
+  color = db.Column(db.String(10))
+  value = db.Column(db.String(15))
+  block_code = db.Column(db.String(25))
+  cumulative_corrects = db.Column(db.Integer)
+  trial_type = db.relationship('Trial_Type', back_populates='participant')#D 
+  participant = db.relationship("Participant", back_populates='trial_type')#D
+
 class Participant(db.Model):
   __tablename__ = 'participants'
   id = db.Column(db.Integer, primary_key=True)
@@ -35,46 +48,55 @@ class Participant(db.Model):
   #relations (belongs to one)
   group = db.relationship('Group', back_populates='participants') #D
   #Many to one TO association table
-  trial_types = db.relationship('Participants_Trial_Types', back_populates='participant') #D
+  trial_type = db.relationship('Participant_Trial_Type', back_populates='participant') #D
   def __repr__(self):
     return f'Participant(id={self.id}, groupId={self.group_id}, dyad="{self.dyad_L}{self.dyad_N}", remedial="{self.remedial}", date_of_participation="{self.date_of_participation}, notes="{self.notes}"'
-  # def as_dict(self):
-  #   return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+  def as_dict(self):
+    return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
-class Participant_Trial_Type(db.Model):
-  __table__='participants_trial_types'
-  participant_id = db.Column(db.Integer, db.ForeignKey('participant.id'))#D
-  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_type.id'))#D
-  position = db.Column(db.String(10))
-  color = db.Column(db.String(10))
-  value = db.Column(db.String(15))
-  block_code = db.Column(db.String(25))
-  cumulative_corrects = db.Column(db.Integer)
-  trial_type = db.relationship('Trial_Type', back_populates='participant')#D
-  participant = db.relationship("Participant", back_populates='trial_type')#D
+# InvalidRequestError: When initializing mapper mapped class Participant->participants, expression 'Participants_Trial_Types' failed to locate a name ('Participants_Trial_Types'). If this is a class name, consider adding this relationship() to the <class 'models.Participant'> class after both dependent classes have been defined.
 class Trial_Type(db.Model):
   __tablename__ = 'trial_types'
   id = db.Column(db.Integer, primary_key=True)
   trial_code = db.Column(db.String(25))
   #one to many to association table
-  paricipants = db.relationship('Participants_Trial_Types', back_populates='trial_type') #D
+  participant = db.relationship('Participant_Trial_Type', back_populates='trial_type') #D
   def __repr__(self): 
     return f'Participant(id={self.id}, name="{self.trial_code}"'
 
+
+
+
+
+
+trial_types_sets = db.Table(
+  'trial_types_sets',
+  db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
+  db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
+)
+
 class Set(db.Model):
   __tablename__ = 'sets'
-
   id = db.Column(db.Integer, primary_key=True)
   letter = db.Column(db.String(5))
-
   def __repr__(self): 
     return f'Participant(id={self.id}, name="{self.letter}"'
 
+feedbacks_sets = db.Table(
+  'feedbacks_sets',
+  db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True), # M
+  db.Column('set_id', db.Integer, db.ForeignKey('sets.id'), primary_key=True)                 #M
+)
+
+trial_types_feedbacks = db.Table(
+  'trial_types_feedbacks',
+  db.Column('trial_type_id', db.Integer, db.ForeignKey('trial_types.id'), primary_key=True), # M
+  db.Column('feedback_id', db.Integer, db.ForeignKey('feedbacks.id'), primary_key=True)                 #M
+)
+
 class Feedback(db.Model):
   __tablename__ = 'feedbacks' # weird
-
   id = db.Column(db.Integer, primary_key=True)
   code = db.Column(db.String(25))
-
   def __repr__(self): 
     return f'Participant(id={self.id}, name="{self.code}"'

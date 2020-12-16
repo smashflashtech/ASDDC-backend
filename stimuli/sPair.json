@@ -5,61 +5,61 @@
     {
       "trialCode": "sPairT01-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT02-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT03-o",
       "imagePath": "orange.jpg",
-      "value": -5,
+      "value": "-5",
       "color": "orange"
     },
     {
       "trialCode": "sPairT04-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT05-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT06-o",
       "imagePath": "orange.jpg",
-      "value": -5,
+      "value": "-5",
       "color": "orange"
     },
     {
       "trialCode": "sPairT07-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT08-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     },
     {
       "trialCode": "sPairT09-o",
       "imagePath": "orange.jpg",
-      "value": -5,
+      "value": "-5",
       "color": "orange"
     },
     {
       "trialCode": "sPairT10-p",
       "imagePath": "purple.jpg",
-      "value": 5,
+      "value": "+5",
       "color": "purple"
     }
   ]

@@ -27,15 +27,15 @@ class Group(db.Model):
 class Participant_Trial_Type(db.Model): #D
   __tablename__='participants_trial_types'
   id = db.Column(db.Integer, primary_key=True)
-  participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'))#D do i need primary key true here?
-  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'))#D do i need primary key true here?
+  participant_id = db.Column(db.Integer, db.ForeignKey('participants.id'))
+  trial_type_id = db.Column(db.Integer, db.ForeignKey('trial_types.id'))
   position = db.Column(db.String(10))
   color_size = db.Column(db.String(10))
   value = db.Column(db.String(15))
   block_code = db.Column(db.String(25))
   feedback = db.Column(db.Boolean)
-  trial_type = db.relationship('Trial_Type', back_populates='participant')#D 
-  participant = db.relationship("Participant", back_populates='trial_type')#D
+  trial_type = db.relationship('Trial_Type', back_populates='participant')
+  participant = db.relationship("Participant", back_populates='trial_type')
   def __repr__(self):
     return f'Response(id={self.id}, participant_id={self.participant_id}, trial_type_id="{self.trial_type_id}", position="{self.position}", color="{self.color}", value="{self.value}", block_code="{self.block_code}", cumulative_corrects="{self.cumulative_corrects}"'
   def as_dict(self):

@@ -8,7 +8,7 @@ from flask_cors import CORS
 import os
 
 
-#Middleware?
+#Middleware
 CORS(app)
 @app.errorhandler(Exception)
 def unhandled_exception(e):    
@@ -43,14 +43,12 @@ def get_responses():
 def create_one_response(trialcode):
   return create_response(trialcode, **request.get_json()) 
 
-#IDK
 @app.route('/', methods=['GET'])
 def showjson():
   SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
   json_url = os.path.join(SITE_ROOT,'stimuli/', 'test.json')
   data = json.load(open(json_url))
   return jsonify(message=data)
-  # return jsonify(message='')
 
 @app.route('/amts', methods=['GET'])
 def amts():

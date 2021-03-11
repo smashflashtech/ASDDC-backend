@@ -45,7 +45,7 @@ class Participant_Trial_Type(db.Model): #D
 class Participant(db.Model):
   __tablename__ = 'participants'
   id = db.Column(db.Integer, primary_key=True)
-  group_id = db.Column(db.Integer, db.ForeignKey('groups.id', ondelete='SET NULL')) # might want to ask what to do about this on delete setting.. although ill never delete a group
+  group_id = db.Column(db.Integer, db.ForeignKey('groups.id', ondelete='SET NULL')) 
   dyad_L = db.Column(db.String(4), nullable=False)
   dyad_N = db.Column(db.Integer, nullable=False)
   remedial = db.Column(db.String(5))
